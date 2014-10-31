@@ -2,6 +2,7 @@
 function printInventory(inputs) {
 	
 	var itemInfo;
+	//提取商品和数量分别到两个数组
 	var uniqueInputs = new Array();
 	var itemNum = new Array();
 	var j=0;
