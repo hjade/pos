@@ -1,6 +1,5 @@
 ﻿//TODO: Please write code in this file.
 function printInventory(inputs) {
-	
 	var itemInfo;
 	var uniqueInputs = new Array();
 	var itemNum = new Array();
@@ -12,7 +11,7 @@ function printInventory(inputs) {
 	var savePrice=0;
 	var finalStr;
 	finalStr = '***<没钱赚商店>购物清单***\n';
-
+	//Handle the inputs string.
 	for(var i=0;i<inputs.length;i++) {
 		indexOf_ = inputs[i].indexOf('-');
 		if(indexOf_!=-1){
