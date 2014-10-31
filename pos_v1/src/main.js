@@ -2,7 +2,6 @@
 function printInventory(inputs) {
 	
 	var itemInfo;
-	//提取商品和数量分别到两个数组
 	var uniqueInputs = new Array();
 	var itemNum = new Array();
 	var j=0;
@@ -11,7 +10,7 @@ function printInventory(inputs) {
 	var tempNum;
 	var totalPrice=0;
 	var savePrice=0;
-	var finalStr=0;
+	var finalStr;
 	finalStr = '***<没钱赚商店>购物清单***\n';
 
 	for(var i=0;i<inputs.length;i++) {
